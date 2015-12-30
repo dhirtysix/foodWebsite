@@ -1,0 +1,18 @@
+<div class="hero">
+  <div class="container">
+    <h2>Thai Geranial</h2>
+    <p>Former Microcellular Biology researcher (Palita Sriratana) and her co pilot, Scott Phoenam, and a team of Chicago cooks are bringing healthy cooking to your homes.</p>
+    <a href="#">Read More</a>
+  </div>
+</div>
+
+<div class="main">
+  <div class="container">
+  <h2>Popular Dishes</h2>
+    <% @days.each do |day| %>
+    <div class="day">
+      <h3><%= day.date %></h3>
+    </div>
+    <% end %>
+  </div>
+</div>
